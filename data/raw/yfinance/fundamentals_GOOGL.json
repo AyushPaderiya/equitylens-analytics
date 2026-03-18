@@ -1,0 +1,33 @@
+{
+  "ticker": "GOOGL",
+  "extracted_at": "2026-03-18T13:28:47Z",
+  "data": {
+    "symbol": "GOOGL",
+    "shortName": "Alphabet Inc.",
+    "sector": "Communication Services",
+    "industry": "Internet Content & Information",
+    "marketCap": 3761199644672,
+    "trailingPE": 28.735676,
+    "forwardPE": 23.165697,
+    "priceToBook": 9.050738,
+    "trailingEps": 10.82,
+    "revenueGrowth": 0.18,
+    "earningsGrowth": 0.311,
+    "profitMargins": 0.32810003,
+    "operatingMargins": 0.31568,
+    "totalRevenue": 402835996672,
+    "totalDebt": 66995998720,
+    "totalCash": 126843002880,
+    "debtToEquity": 16.133,
+    "returnOnEquity": 0.35705003,
+    "returnOnAssets": 0.15427,
+    "beta": 1.112,
+    "fiftyTwoWeekHigh": 349.0,
+    "fiftyTwoWeekLow": 140.53,
+    "averageVolume": 33029930,
+    "sharesOutstanding": 5822000000,
+    "dividendYield": 0.27,
+    "currentRatio": 2.005,
+    "quickRatio": 1.847
+  }
+}

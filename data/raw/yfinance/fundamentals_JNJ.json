@@ -1,0 +1,33 @@
+{
+  "ticker": "JNJ",
+  "extracted_at": "2026-03-18T13:28:54Z",
+  "data": {
+    "symbol": "JNJ",
+    "shortName": "Johnson & Johnson",
+    "sector": "Healthcare",
+    "industry": "Drug Manufacturers - General",
+    "marketCap": 573821026304,
+    "trailingPE": 21.607077,
+    "forwardPE": 18.941063,
+    "priceToBook": 7.0311527,
+    "trailingEps": 11.02,
+    "revenueGrowth": 0.091,
+    "earningsGrowth": 0.486,
+    "profitMargins": 0.28456,
+    "operatingMargins": 0.23966,
+    "totalRevenue": 94193000448,
+    "totalDebt": 49332998144,
+    "totalCash": 20102000640,
+    "debtToEquity": 60.499,
+    "returnOnEquity": 0.35029998,
+    "returnOnAssets": 0.086780004,
+    "beta": 0.326,
+    "fiftyTwoWeekHigh": 251.71,
+    "fiftyTwoWeekLow": 141.5,
+    "averageVolume": 8783986,
+    "sharesOutstanding": 2409898936,
+    "dividendYield": 2.18,
+    "currentRatio": 1.028,
+    "quickRatio": 0.689
+  }
+}

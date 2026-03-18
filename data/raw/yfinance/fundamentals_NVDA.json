@@ -1,0 +1,33 @@
+{
+  "ticker": "NVDA",
+  "extracted_at": "2026-03-18T13:28:46Z",
+  "data": {
+    "symbol": "NVDA",
+    "shortName": "NVIDIA Corporation",
+    "sector": "Technology",
+    "industry": "Semiconductors",
+    "marketCap": 4421808291840,
+    "trailingPE": 37.2045,
+    "forwardPE": 16.6038,
+    "priceToBook": 28.11032,
+    "trailingEps": 4.89,
+    "revenueGrowth": 0.732,
+    "earningsGrowth": 0.956,
+    "profitMargins": 0.55603004,
+    "operatingMargins": 0.65024,
+    "totalRevenue": 215938007040,
+    "totalDebt": 11411999744,
+    "totalCash": 62556000256,
+    "debtToEquity": 7.255,
+    "returnOnEquity": 1.01485,
+    "returnOnAssets": 0.51188,
+    "beta": 2.375,
+    "fiftyTwoWeekHigh": 212.19,
+    "fiftyTwoWeekLow": 86.62,
+    "averageVolume": 175928884,
+    "sharesOutstanding": 24300000000,
+    "dividendYield": 0.02,
+    "currentRatio": 3.905,
+    "quickRatio": 3.141
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "ticker": "MSFT",
+  "extracted_at": "2026-03-18T13:28:46Z",
+  "data": {
+    "symbol": "MSFT",
+    "shortName": "Microsoft Corporation",
+    "sector": "Technology",
+    "industry": "Software - Infrastructure",
+    "marketCap": 2968566104064,
+    "trailingPE": 24.99437,
+    "forwardPE": 21.195595,
+    "priceToBook": 7.5911813,
+    "trailingEps": 15.98,
+    "revenueGrowth": 0.167,
+    "earningsGrowth": 0.598,
+    "profitMargins": 0.39044,
+    "operatingMargins": 0.47094002,
+    "totalRevenue": 305453006848,
+    "totalDebt": 123278000128,
+    "totalCash": 89461997568,
+    "debtToEquity": 31.539,
+    "returnOnEquity": 0.34390998,
+    "returnOnAssets": 0.1486,
+    "beta": 1.108,
+    "fiftyTwoWeekHigh": 555.45,
+    "fiftyTwoWeekLow": 344.79,
+    "averageVolume": 34185491,
+    "sharesOutstanding": 7425629076,
+    "dividendYield": 0.91,
+    "currentRatio": 1.386,
+    "quickRatio": 1.239
+  }
+}

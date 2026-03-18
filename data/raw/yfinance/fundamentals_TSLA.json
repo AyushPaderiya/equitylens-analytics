@@ -1,0 +1,33 @@
+{
+  "ticker": "TSLA",
+  "extracted_at": "2026-03-18T13:28:57Z",
+  "data": {
+    "symbol": "TSLA",
+    "shortName": "Tesla, Inc.",
+    "sector": "Consumer Cyclical",
+    "industry": "Auto Manufacturers",
+    "marketCap": 1498233438208,
+    "trailingPE": 369.69443,
+    "forwardPE": 142.06721,
+    "priceToBook": 18.234005,
+    "trailingEps": 1.08,
+    "revenueGrowth": -0.031,
+    "earningsGrowth": -0.606,
+    "profitMargins": 0.040009998,
+    "operatingMargins": 0.047030002,
+    "totalRevenue": 94827003904,
+    "totalDebt": 14718999552,
+    "totalCash": 44059000832,
+    "debtToEquity": 17.763,
+    "returnOnEquity": 0.049250003,
+    "returnOnAssets": 0.02095,
+    "beta": 1.926,
+    "fiftyTwoWeekHigh": 498.83,
+    "fiftyTwoWeekLow": 214.25,
+    "averageVolume": 61640223,
+    "sharesOutstanding": 3752431984,
+    "dividendYield": null,
+    "currentRatio": 2.164,
+    "quickRatio": 1.538
+  }
+}

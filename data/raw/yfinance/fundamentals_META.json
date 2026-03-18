@@ -1,0 +1,33 @@
+{
+  "ticker": "META",
+  "extracted_at": "2026-03-18T13:28:48Z",
+  "data": {
+    "symbol": "META",
+    "shortName": "Meta Platforms, Inc.",
+    "sector": "Communication Services",
+    "industry": "Internet Content & Information",
+    "marketCap": 1575052902400,
+    "trailingPE": 26.530039,
+    "forwardPE": 17.353956,
+    "priceToBook": 7.251447,
+    "trailingEps": 23.47,
+    "revenueGrowth": 0.238,
+    "earningsGrowth": 0.107,
+    "profitMargins": 0.30084,
+    "operatingMargins": 0.41314998,
+    "totalRevenue": 200965996544,
+    "totalDebt": 85080997888,
+    "totalCash": 81592000512,
+    "debtToEquity": 39.164,
+    "returnOnEquity": 0.30238,
+    "returnOnAssets": 0.16212,
+    "beta": 1.279,
+    "fiftyTwoWeekHigh": 796.25,
+    "fiftyTwoWeekLow": 479.8,
+    "averageVolume": 14916844,
+    "sharesOutstanding": 2187177748,
+    "dividendYield": 0.34,
+    "currentRatio": 2.599,
+    "quickRatio": 2.423
+  }
+}

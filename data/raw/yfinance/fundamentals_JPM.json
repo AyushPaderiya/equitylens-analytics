@@ -1,0 +1,33 @@
+{
+  "ticker": "JPM",
+  "extracted_at": "2026-03-18T13:28:50Z",
+  "data": {
+    "symbol": "JPM",
+    "shortName": "JP Morgan Chase & Co.",
+    "sector": "Financial Services",
+    "industry": "Banks - Diversified",
+    "marketCap": 773751701504,
+    "trailingPE": 14.330171,
+    "forwardPE": 12.212077,
+    "priceToBook": 2.25919,
+    "trailingEps": 20.02,
+    "revenueGrowth": 0.025,
+    "earningsGrowth": -0.036,
+    "profitMargins": 0.3391,
+    "operatingMargins": 0.41062,
+    "totalRevenue": 168235008000,
+    "totalDebt": 1025994981376,
+    "totalCash": 1287710048256,
+    "debtToEquity": null,
+    "returnOnEquity": 0.16134001,
+    "returnOnAssets": 0.01354,
+    "beta": 1.059,
+    "fiftyTwoWeekHigh": 337.25,
+    "fiftyTwoWeekLow": 202.16,
+    "averageVolume": 10846138,
+    "sharesOutstanding": 2697032375,
+    "dividendYield": 2.09,
+    "currentRatio": null,
+    "quickRatio": null
+  }
+}

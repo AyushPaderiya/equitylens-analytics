@@ -1,0 +1,33 @@
+{
+  "ticker": "MS",
+  "extracted_at": "2026-03-18T13:28:53Z",
+  "data": {
+    "symbol": "MS",
+    "shortName": "Morgan Stanley",
+    "sector": "Financial Services",
+    "industry": "Capital Markets",
+    "marketCap": 250611974144,
+    "trailingPE": 15.458374,
+    "forwardPE": 12.827223,
+    "priceToBook": 2.452033,
+    "trailingEps": 10.21,
+    "revenueGrowth": 0.11,
+    "earningsGrowth": 0.207,
+    "profitMargins": 0.23986,
+    "operatingMargins": 0.38625,
+    "totalRevenue": 70296002560,
+    "totalDebt": 513408008192,
+    "totalCash": 600391024640,
+    "debtToEquity": 455.747,
+    "returnOnEquity": 0.15614,
+    "returnOnAssets": 0.012920001,
+    "beta": 1.207,
+    "fiftyTwoWeekHigh": 192.68,
+    "fiftyTwoWeekLow": 94.33,
+    "averageVolume": 7030222,
+    "sharesOutstanding": 1587860206,
+    "dividendYield": 2.53,
+    "currentRatio": 2.053,
+    "quickRatio": 1.673
+  }
+}

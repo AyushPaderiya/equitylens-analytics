@@ -1,0 +1,33 @@
+{
+  "ticker": "UNH",
+  "extracted_at": "2026-03-18T13:28:54Z",
+  "data": {
+    "symbol": "UNH",
+    "shortName": "UnitedHealth Group Incorporated",
+    "sector": "Healthcare",
+    "industry": "Healthcare Plans",
+    "marketCap": 261020352512,
+    "trailingPE": 21.736206,
+    "forwardPE": 14.441763,
+    "priceToBook": 2.7684503,
+    "trailingEps": 13.23,
+    "revenueGrowth": 0.123,
+    "earningsGrowth": -0.999,
+    "profitMargins": 0.02694,
+    "operatingMargins": 0.00336,
+    "totalRevenue": 447567003648,
+    "totalDebt": 83003998208,
+    "totalCash": 28120999936,
+    "debtToEquity": 81.618,
+    "returnOnEquity": 0.12538,
+    "returnOnAssets": 0.039,
+    "beta": 0.38,
+    "fiftyTwoWeekHigh": 606.36,
+    "fiftyTwoWeekLow": 234.6,
+    "averageVolume": 9061445,
+    "sharesOutstanding": 907675839,
+    "dividendYield": 3.07,
+    "currentRatio": 0.788,
+    "quickRatio": 0.704
+  }
+}

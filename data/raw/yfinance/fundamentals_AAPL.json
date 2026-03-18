@@ -1,0 +1,33 @@
+{
+  "ticker": "AAPL",
+  "extracted_at": "2026-03-18T13:28:45Z",
+  "data": {
+    "symbol": "AAPL",
+    "shortName": "Apple Inc.",
+    "sector": "Technology",
+    "industry": "Consumer Electronics",
+    "marketCap": 3736653529088,
+    "trailingPE": 32.140327,
+    "forwardPE": 27.274708,
+    "priceToBook": 42.38579,
+    "trailingEps": 7.91,
+    "revenueGrowth": 0.157,
+    "earningsGrowth": 0.183,
+    "profitMargins": 0.27037,
+    "operatingMargins": 0.35374,
+    "totalRevenue": 435617005568,
+    "totalDebt": 90509000704,
+    "totalCash": 66907000832,
+    "debtToEquity": 102.63,
+    "returnOnEquity": 1.5202099,
+    "returnOnAssets": 0.24377,
+    "beta": 1.116,
+    "fiftyTwoWeekHigh": 288.62,
+    "fiftyTwoWeekLow": 169.21,
+    "averageVolume": 47466349,
+    "sharesOutstanding": 14681140000,
+    "dividendYield": 0.41,
+    "currentRatio": 0.974,
+    "quickRatio": 0.845
+  }
+}

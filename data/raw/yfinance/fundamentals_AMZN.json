@@ -1,0 +1,33 @@
+{
+  "ticker": "AMZN",
+  "extracted_at": "2026-03-18T13:28:56Z",
+  "data": {
+    "symbol": "AMZN",
+    "shortName": "Amazon.com, Inc.",
+    "sector": "Consumer Cyclical",
+    "industry": "Internet Retail",
+    "marketCap": 2310155010048,
+    "trailingPE": 30.013947,
+    "forwardPE": 23.036121,
+    "priceToBook": 5.617919,
+    "trailingEps": 7.17,
+    "revenueGrowth": 0.136,
+    "earningsGrowth": 0.05,
+    "profitMargins": 0.108339995,
+    "operatingMargins": 0.10533,
+    "totalRevenue": 716923994112,
+    "totalDebt": 178546999296,
+    "totalCash": 123028996096,
+    "debtToEquity": 43.435,
+    "returnOnEquity": 0.22286,
+    "returnOnAssets": 0.06928,
+    "beta": 1.42,
+    "fiftyTwoWeekHigh": 258.6,
+    "fiftyTwoWeekLow": 161.38,
+    "averageVolume": 49043337,
+    "sharesOutstanding": 10734920870,
+    "dividendYield": null,
+    "currentRatio": 1.051,
+    "quickRatio": 0.844
+  }
+}
