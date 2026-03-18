@@ -1,0 +1,33 @@
+{
+  "ticker": "HD",
+  "extracted_at": "2026-03-18T13:28:58Z",
+  "data": {
+    "symbol": "HD",
+    "shortName": "Home Depot, Inc. (The)",
+    "sector": "Consumer Cyclical",
+    "industry": "Home Improvement Retail",
+    "marketCap": 339897483264,
+    "trailingPE": 23.976826,
+    "forwardPE": 20.931856,
+    "priceToBook": 26.461288,
+    "trailingEps": 14.24,
+    "revenueGrowth": -0.038,
+    "earningsGrowth": -0.145,
+    "profitMargins": 0.08596,
+    "operatingMargins": 0.100760005,
+    "totalRevenue": 164683005952,
+    "totalDebt": 65350000640,
+    "totalCash": 1388999936,
+    "debtToEquity": 510.029,
+    "returnOnEquity": 1.45541,
+    "returnOnAssets": 0.12977,
+    "beta": 1.044,
+    "fiftyTwoWeekHigh": 426.75,
+    "fiftyTwoWeekLow": 326.31,
+    "averageVolume": 4171457,
+    "sharesOutstanding": 995511485,
+    "dividendYield": 2.73,
+    "currentRatio": 1.061,
+    "quickRatio": 0.215
+  }
+}

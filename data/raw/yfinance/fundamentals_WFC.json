@@ -1,0 +1,33 @@
+{
+  "ticker": "WFC",
+  "extracted_at": "2026-03-18T13:28:51Z",
+  "data": {
+    "symbol": "WFC",
+    "shortName": "Wells Fargo & Company",
+    "sector": "Financial Services",
+    "industry": "Banks - Diversified",
+    "marketCap": 239292432384,
+    "trailingPE": 12.177317,
+    "forwardPE": 9.620543,
+    "priceToBook": 1.4330565,
+    "trailingEps": 6.26,
+    "revenueGrowth": 0.05,
+    "earningsGrowth": 0.131,
+    "profitMargins": 0.26659,
+    "operatingMargins": 0.29938,
+    "totalRevenue": 80041000960,
+    "totalDebt": 443507998720,
+    "totalCash": 449211006976,
+    "debtToEquity": null,
+    "returnOnEquity": 0.11732,
+    "returnOnAssets": 0.01047,
+    "beta": 1.071,
+    "fiftyTwoWeekHigh": 97.76,
+    "fiftyTwoWeekLow": 58.42,
+    "averageVolume": 16580035,
+    "sharesOutstanding": 3085635641,
+    "dividendYield": 2.36,
+    "currentRatio": null,
+    "quickRatio": null
+  }
+}

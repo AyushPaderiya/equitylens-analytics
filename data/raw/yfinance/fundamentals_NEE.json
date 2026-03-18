@@ -1,0 +1,33 @@
+{
+  "ticker": "NEE",
+  "extracted_at": "2026-03-18T13:29:07Z",
+  "data": {
+    "symbol": "NEE",
+    "shortName": "NextEra Energy, Inc.",
+    "sector": "Utilities",
+    "industry": "Utilities - Regulated Electric",
+    "marketCap": 192788283392,
+    "trailingPE": 28.039394,
+    "forwardPE": 21.131796,
+    "priceToBook": 3.5295238,
+    "trailingEps": 3.3,
+    "revenueGrowth": 0.207,
+    "earningsGrowth": 0.26,
+    "profitMargins": 0.24934,
+    "operatingMargins": 0.24445999,
+    "totalRevenue": 27412000768,
+    "totalDebt": 97220001792,
+    "totalCash": 2812000000,
+    "debtToEquity": 146.242,
+    "returnOnEquity": 0.083739996,
+    "returnOnAssets": 0.025710002,
+    "beta": 0.749,
+    "fiftyTwoWeekHigh": 95.91,
+    "fiftyTwoWeekLow": 61.72,
+    "averageVolume": 9687503,
+    "sharesOutstanding": 2083521964,
+    "dividendYield": 2.69,
+    "currentRatio": 0.595,
+    "quickRatio": 0.39
+  }
+}

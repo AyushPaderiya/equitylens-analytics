@@ -1,0 +1,33 @@
+{
+  "ticker": "T",
+  "extracted_at": "2026-03-18T13:29:03Z",
+  "data": {
+    "symbol": "T",
+    "shortName": "AT&T Inc.",
+    "sector": "Communication Services",
+    "industry": "Telecom Services",
+    "marketCap": 197441175552,
+    "trailingPE": 9.161184,
+    "forwardPE": 10.928383,
+    "priceToBook": 1.7732077,
+    "trailingEps": 3.04,
+    "revenueGrowth": 0.036,
+    "earningsGrowth": -0.056,
+    "profitMargins": 0.17472,
+    "operatingMargins": 0.18416001,
+    "totalRevenue": 125648003072,
+    "totalDebt": 159560007680,
+    "totalCash": 18233999360,
+    "debtToEquity": 124.179,
+    "returnOnEquity": 0.18805,
+    "returnOnAssets": 0.040749997,
+    "beta": 0.576,
+    "fiftyTwoWeekHigh": 29.79,
+    "fiftyTwoWeekLow": 22.95,
+    "averageVolume": 43079113,
+    "sharesOutstanding": 7000577201,
+    "dividendYield": 3.99,
+    "currentRatio": 0.906,
+    "quickRatio": 0.605
+  }
+}

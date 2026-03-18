@@ -1,0 +1,33 @@
+{
+  "ticker": "MCD",
+  "extracted_at": "2026-03-18T13:28:59Z",
+  "data": {
+    "symbol": "MCD",
+    "shortName": "McDonald's Corporation",
+    "sector": "Consumer Cyclical",
+    "industry": "Restaurants",
+    "marketCap": 232849113088,
+    "trailingPE": 27.328308,
+    "forwardPE": 22.78951,
+    "priceToBook": -129.53552,
+    "trailingEps": 11.94,
+    "revenueGrowth": 0.097,
+    "earningsGrowth": 0.082,
+    "profitMargins": 0.3185,
+    "operatingMargins": 0.45071,
+    "totalRevenue": 26884999168,
+    "totalDebt": 54829998080,
+    "totalCash": 774000000,
+    "debtToEquity": null,
+    "returnOnEquity": null,
+    "returnOnAssets": 0.13508001,
+    "beta": 0.496,
+    "fiftyTwoWeekHigh": 341.75,
+    "fiftyTwoWeekLow": 283.47,
+    "averageVolume": 3217474,
+    "sharesOutstanding": 712154350,
+    "dividendYield": 2.28,
+    "currentRatio": 0.955,
+    "quickRatio": 0.743
+  }
+}

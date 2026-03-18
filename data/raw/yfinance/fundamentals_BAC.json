@@ -1,0 +1,33 @@
+{
+  "ticker": "BAC",
+  "extracted_at": "2026-03-18T13:28:50Z",
+  "data": {
+    "symbol": "BAC",
+    "shortName": "Bank of America Corporation",
+    "sector": "Financial Services",
+    "industry": "Banks - Diversified",
+    "marketCap": 345261998080,
+    "trailingPE": 12.409449,
+    "forwardPE": 9.542801,
+    "priceToBook": 1.2299367,
+    "trailingEps": 3.81,
+    "revenueGrowth": 0.072,
+    "earningsGrowth": 0.212,
+    "profitMargins": 0.28401,
+    "operatingMargins": 0.41627997,
+    "totalRevenue": 107421999104,
+    "totalDebt": 767072010240,
+    "totalCash": 770163015680,
+    "debtToEquity": null,
+    "returnOnEquity": 0.10217,
+    "returnOnAssets": 0.00914,
+    "beta": 1.263,
+    "fiftyTwoWeekHigh": 57.55,
+    "fiftyTwoWeekLow": 33.07,
+    "averageVolume": 40539681,
+    "sharesOutstanding": 7176682170,
+    "dividendYield": 2.37,
+    "currentRatio": null,
+    "quickRatio": null
+  }
+}

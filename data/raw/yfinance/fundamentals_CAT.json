@@ -1,0 +1,33 @@
+{
+  "ticker": "CAT",
+  "extracted_at": "2026-03-18T13:29:01Z",
+  "data": {
+    "symbol": "CAT",
+    "shortName": "Caterpillar, Inc.",
+    "sector": "Industrials",
+    "industry": "Farm & Heavy Construction Machinery",
+    "marketCap": 328521678848,
+    "trailingPE": 37.320576,
+    "forwardPE": 25.354593,
+    "priceToBook": 15.321823,
+    "trailingEps": 18.81,
+    "revenueGrowth": 0.18,
+    "earningsGrowth": -0.114,
+    "profitMargins": 0.13144,
+    "operatingMargins": 0.16025,
+    "totalRevenue": 67589001216,
+    "totalDebt": 44058001408,
+    "totalCash": 9333000192,
+    "debtToEquity": 206.67,
+    "returnOnEquity": 0.43526,
+    "returnOnAssets": 0.07891,
+    "beta": 1.531,
+    "fiftyTwoWeekHigh": 789.81,
+    "fiftyTwoWeekLow": 267.3,
+    "averageVolume": 2808906,
+    "sharesOutstanding": 465287332,
+    "dividendYield": 0.86,
+    "currentRatio": 1.436,
+    "quickRatio": 0.871
+  }
+}

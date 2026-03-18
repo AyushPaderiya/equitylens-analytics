@@ -1,0 +1,33 @@
+{
+  "ticker": "GS",
+  "extracted_at": "2026-03-18T13:28:52Z",
+  "data": {
+    "symbol": "GS",
+    "shortName": "Goldman Sachs Group, Inc. (The)",
+    "sector": "Financial Services",
+    "industry": "Capital Markets",
+    "marketCap": 242054299648,
+    "trailingPE": 15.722578,
+    "forwardPE": 12.407982,
+    "priceToBook": 2.2639582,
+    "trailingEps": 51.33,
+    "revenueGrowth": 0.152,
+    "earningsGrowth": 0.173,
+    "profitMargins": 0.28917998,
+    "operatingMargins": 0.38319,
+    "totalRevenue": 59396001792,
+    "totalDebt": 747582980096,
+    "totalCash": 996629020672,
+    "debtToEquity": 596.073,
+    "returnOnEquity": 0.13861,
+    "returnOnAssets": 0.00986,
+    "beta": 1.336,
+    "fiftyTwoWeekHigh": 984.7,
+    "fiftyTwoWeekLow": 439.38,
+    "averageVolume": 2455091,
+    "sharesOutstanding": 296752922,
+    "dividendYield": 2.23,
+    "currentRatio": 1.528,
+    "quickRatio": 1.376
+  }
+}

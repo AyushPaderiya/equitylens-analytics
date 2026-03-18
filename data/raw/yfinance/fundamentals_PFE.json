@@ -1,0 +1,33 @@
+{
+  "ticker": "PFE",
+  "extracted_at": "2026-03-18T13:28:55Z",
+  "data": {
+    "symbol": "PFE",
+    "shortName": "Pfizer, Inc.",
+    "sector": "Healthcare",
+    "industry": "Drug Manufacturers - General",
+    "marketCap": 156088041472,
+    "trailingPE": 20.183825,
+    "forwardPE": 9.705648,
+    "priceToBook": 1.8048525,
+    "trailingEps": 1.36,
+    "revenueGrowth": -0.012,
+    "earningsGrowth": null,
+    "profitMargins": 0.124180004,
+    "operatingMargins": 0.23945,
+    "totalRevenue": 62578999296,
+    "totalDebt": 67647000576,
+    "totalCash": 13596000256,
+    "debtToEquity": 77.957,
+    "returnOnEquity": 0.08886,
+    "returnOnAssets": 0.05683,
+    "beta": 0.412,
+    "fiftyTwoWeekHigh": 27.94,
+    "fiftyTwoWeekLow": 20.92,
+    "averageVolume": 45476005,
+    "sharesOutstanding": 5686267431,
+    "dividendYield": 6.27,
+    "currentRatio": 1.16,
+    "quickRatio": 0.796
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "ticker": "HON",
+  "extracted_at": "2026-03-18T13:29:02Z",
+  "data": {
+    "symbol": "HON",
+    "shortName": "Honeywell International Inc.",
+    "sector": "Industrials",
+    "industry": "Conglomerates",
+    "marketCap": 147108069376,
+    "trailingPE": 33.34582,
+    "forwardPE": 20.144972,
+    "priceToBook": 10.573883,
+    "trailingEps": 6.94,
+    "revenueGrowth": -0.033,
+    "earningsGrowth": -0.764,
+    "profitMargins": 0.1263,
+    "operatingMargins": 0.15413,
+    "totalRevenue": 37441998848,
+    "totalDebt": 35562999808,
+    "totalCash": 12929999872,
+    "debtToEquity": 236.613,
+    "returnOnEquity": 0.26136,
+    "returnOnAssets": 0.05945,
+    "beta": 0.904,
+    "fiftyTwoWeekHigh": 248.18,
+    "fiftyTwoWeekLow": 169.04807,
+    "averageVolume": 4245783,
+    "sharesOutstanding": 635675701,
+    "dividendYield": 2.06,
+    "currentRatio": 1.298,
+    "quickRatio": 0.878
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "ticker": "CVX",
+  "extracted_at": "2026-03-18T13:29:00Z",
+  "data": {
+    "symbol": "CVX",
+    "shortName": "Chevron Corporation",
+    "sector": "Energy",
+    "industry": "Oil & Gas Integrated",
+    "marketCap": 395812044800,
+    "trailingPE": 29.859728,
+    "forwardPE": 21.12002,
+    "priceToBook": 2.1025968,
+    "trailingEps": 6.63,
+    "revenueGrowth": -0.082,
+    "earningsGrowth": -0.238,
+    "profitMargins": 0.06661,
+    "operatingMargins": 0.09462,
+    "totalRevenue": 184654004224,
+    "totalDebt": 46742999040,
+    "totalCash": 6296999936,
+    "debtToEquity": 24.323,
+    "returnOnEquity": 0.07231,
+    "returnOnAssets": 0.03794,
+    "beta": 0.658,
+    "fiftyTwoWeekHigh": 200.58,
+    "fiftyTwoWeekLow": 132.04,
+    "averageVolume": 11797577,
+    "sharesOutstanding": 1981217539,
+    "dividendYield": 3.6,
+    "currentRatio": 1.155,
+    "quickRatio": 0.724
+  }
+}

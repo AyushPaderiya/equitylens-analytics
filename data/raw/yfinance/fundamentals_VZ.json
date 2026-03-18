@@ -1,0 +1,33 @@
+{
+  "ticker": "VZ",
+  "extracted_at": "2026-03-18T13:29:04Z",
+  "data": {
+    "symbol": "VZ",
+    "shortName": "Verizon Communications Inc.",
+    "sector": "Communication Services",
+    "industry": "Telecom Services",
+    "marketCap": 213077409792,
+    "trailingPE": 12.44335,
+    "forwardPE": 9.602372,
+    "priceToBook": 2.039564,
+    "trailingEps": 4.06,
+    "revenueGrowth": 0.02,
+    "earningsGrowth": -0.533,
+    "profitMargins": 0.124280006,
+    "operatingMargins": 0.20989001,
+    "totalRevenue": 138190995456,
+    "totalDebt": 184813993984,
+    "totalCash": 19047999488,
+    "debtToEquity": 174.78,
+    "returnOnEquity": 0.17069,
+    "returnOnAssets": 0.05014,
+    "beta": 0.281,
+    "fiftyTwoWeekHigh": 51.67,
+    "fiftyTwoWeekLow": 38.39,
+    "averageVolume": 30965423,
+    "sharesOutstanding": 4217684168,
+    "dividendYield": 5.6,
+    "currentRatio": 0.913,
+    "quickRatio": 0.74
+  }
+}

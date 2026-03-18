@@ -1,0 +1,33 @@
+{
+  "ticker": "AMT",
+  "extracted_at": "2026-03-18T13:29:06Z",
+  "data": {
+    "symbol": "AMT",
+    "shortName": "American Tower Corporation (REI",
+    "sector": "Real Estate",
+    "industry": "REIT - Specialty",
+    "marketCap": 86639902720,
+    "trailingPE": 34.272224,
+    "forwardPE": 26.78897,
+    "priceToBook": 23.626963,
+    "trailingEps": 5.4,
+    "revenueGrowth": 0.075,
+    "earningsGrowth": -0.332,
+    "profitMargins": 0.23763001,
+    "operatingMargins": 0.44942,
+    "totalRevenue": 10644599808,
+    "totalDebt": 44963901440,
+    "totalCash": 1474800000,
+    "debtToEquity": 434.211,
+    "returnOnEquity": 0.2628,
+    "returnOnAssets": 0.04895,
+    "beta": 0.907,
+    "fiftyTwoWeekHigh": 234.33,
+    "fiftyTwoWeekLow": 166.88,
+    "averageVolume": 3084623,
+    "sharesOutstanding": 466084820,
+    "dividendYield": 3.72,
+    "currentRatio": 0.397,
+    "quickRatio": 0.342
+  }
+}

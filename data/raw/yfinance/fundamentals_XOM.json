@@ -1,0 +1,33 @@
+{
+  "ticker": "XOM",
+  "extracted_at": "2026-03-18T13:28:59Z",
+  "data": {
+    "symbol": "XOM",
+    "shortName": "Exxon Mobil Corporation",
+    "sector": "Energy",
+    "industry": "Oil & Gas Integrated",
+    "marketCap": 661723676672,
+    "trailingPE": 23.702986,
+    "forwardPE": 18.359028,
+    "priceToBook": 2.558604,
+    "trailingEps": 6.7,
+    "revenueGrowth": -0.013,
+    "earningsGrowth": -0.11,
+    "profitMargins": 0.089049995,
+    "operatingMargins": 0.09527001,
+    "totalRevenue": 323904995328,
+    "totalDebt": 50487001088,
+    "totalCash": 10680999936,
+    "debtToEquity": 18.936,
+    "returnOnEquity": 0.110810004,
+    "returnOnAssets": 0.04902,
+    "beta": 0.348,
+    "fiftyTwoWeekHigh": 160.45,
+    "fiftyTwoWeekLow": 97.8,
+    "averageVolume": 20579062,
+    "sharesOutstanding": 4166763453,
+    "dividendYield": 2.59,
+    "currentRatio": 1.153,
+    "quickRatio": 0.764
+  }
+}

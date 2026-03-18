@@ -1,0 +1,33 @@
+{
+  "ticker": "BA",
+  "extracted_at": "2026-03-18T13:29:01Z",
+  "data": {
+    "symbol": "BA",
+    "shortName": "Boeing Company (The)",
+    "sector": "Industrials",
+    "industry": "Aerospace & Defense",
+    "marketCap": 165671665664,
+    "trailingPE": 84.66667,
+    "forwardPE": 44.820038,
+    "priceToBook": 30.364397,
+    "trailingEps": 2.49,
+    "revenueGrowth": 0.571,
+    "earningsGrowth": null,
+    "profitMargins": 0.02498,
+    "operatingMargins": -0.03178,
+    "totalRevenue": 89462996992,
+    "totalDebt": 56364998656,
+    "totalCash": 28657999872,
+    "debtToEquity": 1032.894,
+    "returnOnEquity": 2.90084,
+    "returnOnAssets": -0.019989999,
+    "beta": 1.096,
+    "fiftyTwoWeekHigh": 254.35,
+    "fiftyTwoWeekLow": 128.88,
+    "averageVolume": 7355761,
+    "sharesOutstanding": 785844140,
+    "dividendYield": null,
+    "currentRatio": 1.188,
+    "quickRatio": 0.377
+  }
+}
