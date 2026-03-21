@@ -20,6 +20,9 @@ logger = setup_logging("pipeline.analytics_layer")
 # All views deployed in dependency order
 VIEWS = [
     BASE_DIR / "sql" / "views" / "vw_stock_performance.sql",
+    BASE_DIR / "sql" / "views" / "vw_sector_performance.sql",
+    BASE_DIR / "sql" / "views" / "vw_risk_metrics.sql",
+    BASE_DIR / "sql" / "views" / "vw_macro_overlay.sql",
     BASE_DIR / "sql" / "views" / "vw_fundamental_scorecard.sql",
     BASE_DIR / "sql" / "views" / "vw_volume_anomalies.sql",
     BASE_DIR / "sql" / "views" / "vw_forecast_input.sql",

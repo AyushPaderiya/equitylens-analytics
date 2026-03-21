@@ -25,7 +25,19 @@ class Settings:
     LOG_LEVEL:          str = os.getenv("LOG_LEVEL", "INFO")
     ENVIRONMENT:        str = os.getenv("ENVIRONMENT", "development")
 
-    # ── S&P 500 universe — 30 stocks across 10 sectors ───────────────────────
+    def __init__(self):
+        # Try Streamlit secrets if env vars not set
+        # This makes the app work both locally and on Streamlit Cloud
+        try:
+            import streamlit as st
+            if hasattr(st, "secrets") and "database" in st.secrets:
+                self.DATABASE_URL      = st.secrets["database"].get("DATABASE_URL", self.DATABASE_URL)
+                self.FRED_API_KEY      = st.secrets["database"].get("FRED_API_KEY", self.FRED_API_KEY)
+                self.ALPHA_VANTAGE_KEY = st.secrets["database"].get("ALPHA_VANTAGE_KEY", self.ALPHA_VANTAGE_KEY)
+        except Exception:
+            pass  # Not running in Streamlit context — use env vars
+
+    # ── S&P 500 universe ─────────────────────────────────────────────────────
     TICKERS: dict = {
         "Technology":             ["AAPL", "MSFT", "NVDA", "GOOGL", "META", "AVGO"],
         "Financials":             ["JPM", "BAC", "WFC", "GS", "MS"],
@@ -39,11 +51,9 @@ class Settings:
         "Utilities":              ["NEE"],
     }
 
-    # Flat list of all tickers — derived automatically, never manually maintain
-    ALL_TICKERS: list = [t for tickers in TICKERS.values() for t in tickers]
-    BENCHMARK_TICKER: str = "^GSPC"  # S&P 500 index for relative performance
+    ALL_TICKERS:      list = [t for tickers in TICKERS.values() for t in tickers]
+    BENCHMARK_TICKER: str  = "^GSPC"
 
-    # ── FRED macro series ────────────────────────────────────────────────────
     FRED_SERIES: dict = {
         "FEDFUNDS": "Federal Funds Effective Rate",
         "CPIAUCSL": "CPI — All Urban Consumers",
@@ -52,20 +62,12 @@ class Settings:
         "VIXCLS":   "CBOE Volatility Index (VIX)",
     }
 
-    # ── Alpha Vantage — top 5 by market cap only (25 req/day limit) ──────────
-    AV_TICKERS: list = ["AAPL", "MSFT", "NVDA", "GOOGL", "AMZN"]
-
-    # ── Pipeline config ──────────────────────────────────────────────────────
-    HISTORICAL_START:  str = "2022-01-01"   # ~3 years of history
-    MAX_RETRIES:       int = 3
-    RETRY_DELAY_SEC:   int = 5              # Base delay for exponential backoff
+    AV_TICKERS:        list = ["AAPL", "MSFT", "NVDA", "GOOGL", "AMZN"]
+    HISTORICAL_START:  str  = "2022-01-01"
+    MAX_RETRIES:       int  = 3
+    RETRY_DELAY_SEC:   int  = 5
 
     def validate(self) -> None:
-        """
-        Call this once at pipeline startup.
-        Fails loudly and early — never silently proceeds with missing credentials.
-        Production pattern: fail-fast on config errors before any API calls.
-        """
         missing = [
             key for key, val in {
                 "FRED_API_KEY":      self.FRED_API_KEY,

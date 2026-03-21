@@ -22,8 +22,7 @@ WITH volume_baseline AS (
             ROWS BETWEEN 20 PRECEDING AND 1 PRECEDING
         ) AS avg_volume_20d,
 
-        -- 20-day volume std dev (for z-
-                -- 20-day volume std dev (for z-score)
+        -- 20-day volume std dev (for z-score)
         STDDEV(fdp.volume) OVER (
             PARTITION BY fdp.ticker
             ORDER BY fdp.date

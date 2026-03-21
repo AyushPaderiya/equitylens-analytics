@@ -18,28 +18,27 @@ class AlphaVantageExtractor(BaseExtractor):
         self.api_key    = settings.ALPHA_VANTAGE_KEY
         self._call_count = 0
 
-        def extract(self, force_refresh: bool = False) -> dict:
-            """Pull RSI only for AV_TICKERS. MACD is computed locally via pandas-ta."""
-            self.logger.info(
-                f"Alpha Vantage extraction started | "
-                f"Tickers: {settings.AV_TICKERS} | Indicator: RSI only"
+    def extract(self, force_refresh: bool = False) -> dict:
+        """Pull RSI only for AV_TICKERS. MACD is computed locally via pandas-ta."""
+        self.logger.info(
+            f"Alpha Vantage extraction started | "
+            f"Tickers: {settings.AV_TICKERS} | Indicator: RSI only"
+        )
+
+        results = {}
+        for ticker in settings.AV_TICKERS:
+            self.logger.info(f"  → {ticker}: RSI")
+            rsi_status = self._extract_indicator(
+                ticker, "RSI", force_refresh=force_refresh
             )
+            self._throttle()
+            results[ticker] = {"rsi": rsi_status}
 
-            results = {}
-            for ticker in settings.AV_TICKERS:
-                self.logger.info(f"  → {ticker}: RSI")
-                rsi_status = self._extract_indicator(
-                    ticker, "RSI", force_refresh=force_refresh
-                )
-                self._throttle()
-                results[ticker] = {"rsi": rsi_status}
-
-            ok = sum(1 for v in results.values() if v["rsi"] in ("success", "cached"))
-            self.logger.info(
-                f"Alpha Vantage extraction complete | {ok}/{len(results)} tickers OK"
-            )
-            return results
-
+        ok = sum(1 for v in results.values() if v["rsi"] in ("success", "cached"))
+        self.logger.info(
+            f"Alpha Vantage extraction complete | {ok}/{len(results)} tickers OK"
+        )
+        return results
 
     def _extract_indicator(
         self, ticker: str, indicator: str, force_refresh: bool = False

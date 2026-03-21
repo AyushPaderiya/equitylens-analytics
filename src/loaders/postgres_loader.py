@@ -265,7 +265,7 @@ class PostgresLoader:
         logger.info(f"✓ {ticker}: {inserted} price rows upserted")
         return inserted
 
-        # ── fact_macro_indicators ─────────────────────────────────────────────────
+    # ── fact_macro_indicators ─────────────────────────────────────────────────
 
     def load_fact_macro(self, series_data: dict) -> int:
         """

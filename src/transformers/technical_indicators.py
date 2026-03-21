@@ -103,36 +103,36 @@ class TechnicalIndicatorsTransformer:
         )
         return df.reset_index()
 
-        def transform_all(self) -> dict:
-            """
-            Run transform_ticker() for every ticker in the universe.
-            Returns a dict: {ticker: DataFrame or None}
+    def transform_all(self) -> dict:
+        """
+        Run transform_ticker() for every ticker in the universe.
+        Returns a dict: {ticker: DataFrame or None}
 
-            Called by the ETL pipeline after extraction completes.
-            """
-            logger.info(
-                f"Technical indicators transform started | "
-                f"Tickers: {len(settings.ALL_TICKERS)}"
-            )
+        Called by the ETL pipeline after extraction completes.
+        """
+        logger.info(
+            f"Technical indicators transform started | "
+            f"Tickers: {len(settings.ALL_TICKERS)}"
+        )
 
-            results = {}
-            success, failed = 0, 0
+        results = {}
+        success, failed = 0, 0
 
-            for ticker in settings.ALL_TICKERS:
-                try:
-                    df = self.transform_ticker(ticker)
-                    results[ticker] = df
-                    if df is not None:
-                        success += 1
-                    else:
-                        failed += 1
-                except Exception as exc:
-                    logger.error(f"✗ {ticker} transform failed: {exc}")
-                    results[ticker] = None
+        for ticker in settings.ALL_TICKERS:
+            try:
+                df = self.transform_ticker(ticker)
+                results[ticker] = df
+                if df is not None:
+                    success += 1
+                else:
                     failed += 1
+            except Exception as exc:
+                logger.error(f"✗ {ticker} transform failed: {exc}")
+                results[ticker] = None
+                failed += 1
 
-            logger.info(
-                f"Technical indicators transform complete | "
-                f"✓ {success} succeeded | ✗ {failed} failed"
-            )
-            return results
+        logger.info(
+            f"Technical indicators transform complete | "
+            f"✓ {success} succeeded | ✗ {failed} failed"
+        )
+        return results
