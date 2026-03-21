@@ -1,6 +1,10 @@
 # 📈 EquityLens Analytics
 
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://equitylens-analytics.streamlit.app)
+
 **S&P 500 Market Intelligence Platform** — A production-grade ETL pipeline and interactive analytics dashboard for equity market analysis.
+
+**[🌐 View Live Dashboard](https://equitylens-analytics.streamlit.app)**
 
 EquityLens extracts data from 3 API sources, transforms it through a medallion architecture (Bronze → Silver → Gold), loads it into PostgreSQL, and serves it through an interactive Streamlit dashboard with 4 analytical pages.
 
