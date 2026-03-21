@@ -1,4 +1,3 @@
-# Create this file in project root
 cat > packages.txt << EOF
 libpq-dev
 gcc
