@@ -10,7 +10,7 @@ from dashboard.components.filters import render_header, date_range_filter, secto
 from dashboard.components.charts  import line_chart, scatter_chart
 from dashboard.components.kpi_cards import render_kpi_row
 
-st.set_page_config(page_title="Macro Overlay", page_icon="🌍", layout="wide")
+
 
 render_header(
     "🌍 Macro Overlay",
@@ -134,7 +134,7 @@ if not macro_df.empty:
         title_font_size=15,
     )
     fig.update_yaxes(title_text="Fed Funds Rate %", secondary_y=True)
-    st.plotly_chart(fig, use_container_width=True)
+    st.plotly_chart(fig, width='stretch')
 
 # ── VIX vs Market Volatility ──────────────────────────────────────────────────
 st.subheader("😨 VIX (Fear Index) vs Market Volatility")
@@ -173,7 +173,7 @@ with col1:
             height=360, margin=dict(l=40, r=20, t=40, b=40),
             title="VIX Daily — Fear Index",
         )
-        st.plotly_chart(fig, use_container_width=True)
+        st.plotly_chart(fig, width='stretch')
 
 with col2:
     # Correlation: VIX vs Tech volatility
@@ -197,7 +197,7 @@ with col2:
             height=360,
         )
         fig.update_traces(marker_color="#00D4AA", marker_size=7)
-        st.plotly_chart(fig, use_container_width=True)
+        st.plotly_chart(fig, width='stretch')
 
 # ── CPI + Treasury Yield ──────────────────────────────────────────────────────
 st.subheader("📊 CPI Trend & 10-Year Treasury Yield")
@@ -247,4 +247,4 @@ if not macro_series_df.empty:
         fig.update_xaxes(gridcolor="#2A2F3E", row=1, col=i)
         fig.update_yaxes(gridcolor="#2A2F3E", row=1, col=i)
 
-    st.plotly_chart(fig, use_container_width=True)
+    st.plotly_chart(fig, width='stretch')

@@ -11,7 +11,7 @@ from dashboard.components.charts  import (
 )
 from dashboard.components.kpi_cards import render_kpi_row
 
-st.set_page_config(page_title="Sector Risk", page_icon="⚠️", layout="wide")
+
 
 render_header(
     "⚠️ Sector Risk Analysis",
@@ -82,7 +82,7 @@ candle_df = query("""
 
 if not candle_df.empty:
     fig = candlestick_chart(candle_df, ticker, height=480)
-    st.plotly_chart(fig, use_container_width=True)
+    st.plotly_chart(fig, width='stretch')
 
 # ── RSI + MACD row ────────────────────────────────────────────────────────────
 col1, col2 = st.columns([1, 2])
@@ -96,7 +96,7 @@ with col1:
         min_val=0, max_val=100,
         height=280,
     )
-    st.plotly_chart(fig, use_container_width=True)
+    st.plotly_chart(fig, width='stretch')
     if rsi_val < 30:
         st.success("🟢 Oversold — potential buy signal")
     elif rsi_val > 70:
@@ -143,7 +143,7 @@ with col2:
             xaxis=dict(gridcolor="#2A2F3E"),
             yaxis=dict(gridcolor="#2A2F3E"),
         )
-        st.plotly_chart(fig, use_container_width=True)
+        st.plotly_chart(fig, width='stretch')
 
 # ── Volatility comparison ─────────────────────────────────────────────────────
 st.subheader("📉 30D Rolling Volatility — Sector Comparison")
@@ -164,7 +164,7 @@ if not vol_df.empty:
         title="30D Annualised Volatility % by Sector",
         height=380,
     )
-    st.plotly_chart(fig, use_container_width=True)
+    st.plotly_chart(fig, width='stretch')
 
 # ── Risk vs Return scatter ────────────────────────────────────────────────────
 st.subheader("🎯 Risk vs Return — All Stocks")
@@ -195,4 +195,4 @@ if not scatter_df.empty:
         height=440,
     )
     fig.add_hline(y=0, line_dash="dash", line_color="#555")
-    st.plotly_chart(fig, use_container_width=True)
+    st.plotly_chart(fig, width='stretch')

@@ -10,7 +10,7 @@ from dashboard.components.filters  import render_header, date_range_filter, sect
 from dashboard.components.kpi_cards import render_kpi_row
 from dashboard.components.charts   import line_chart, bar_chart, heatmap_chart
 
-st.set_page_config(page_title="Executive Summary", page_icon="📊", layout="wide")
+
 
 render_header(
     "📊 Executive Summary",
@@ -112,7 +112,7 @@ if not cum_df.empty:
         y_format="%",
         height=420,
     )
-    st.plotly_chart(fig, use_container_width=True)
+    st.plotly_chart(fig, width='stretch')
 else:
     st.info("No data for selected filters.")
 
@@ -148,7 +148,7 @@ with col1:
                 for v in sharpe_df.sort_values("avg_sharpe")["avg_sharpe"]
             ]
         )
-        st.plotly_chart(fig, use_container_width=True)
+        st.plotly_chart(fig, width='stretch')
 
 with col2:
     if not sharpe_df.empty:
@@ -158,7 +158,7 @@ with col2:
             title="Average 30D Annualised Volatility % by Sector",
             height=380,
         )
-        st.plotly_chart(fig, use_container_width=True)
+        st.plotly_chart(fig, width='stretch')
 
 # ── Top & Bottom Movers ───────────────────────────────────────────────────────
 st.subheader("🚀 Top & Bottom Movers — Latest Trading Day")
@@ -186,7 +186,7 @@ with col1:
                 "daily_return_pct": "{:+.2f}%",
                 "rsi_14": "{:.1f}",
             }).background_gradient(subset=["daily_return_pct"], cmap="Greens"),
-            use_container_width=True,
+            width='stretch',
             hide_index=True,
         )
 
@@ -201,7 +201,7 @@ with col2:
                 "daily_return_pct": "{:+.2f}%",
                 "rsi_14": "{:.1f}",
             }).background_gradient(subset=["daily_return_pct"], cmap="Reds_r"),
-            use_container_width=True,
+            width='stretch',
             hide_index=True,
         )
 
@@ -228,5 +228,5 @@ if not heatmap_df.empty:
         title="Estimated Monthly Return % by Sector",
         height=420,
     )
-    st.plotly_chart(fig, use_container_width=True)
+    st.plotly_chart(fig, width='stretch')
 

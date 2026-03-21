@@ -14,9 +14,22 @@ def render_header(title: str, subtitle: str) -> None:
     st.markdown(
         f"""
         <div style='padding: 1rem 0 0.5rem 0;'>
-            <h1 style='color: #00D4AA; margin-bottom: 0.2rem;'>{title}</h1>
-            <p style='color: #888; font-size: 0.95rem; margin-top: 0;'>{subtitle}</p>
-            <hr style='border-color: #1A1F2E; margin-top: 0.5rem;'>
+            <h1 style='
+                background: linear-gradient(135deg, #00D4AA, #00B894, #55EFC4);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                background-clip: text;
+                font-weight: 800;
+                letter-spacing: -0.02em;
+                margin-bottom: 0.2rem;
+            '>{title}</h1>
+            <p style='color: #8892A4; font-size: 0.95rem; margin-top: 0; font-weight: 400;'>{subtitle}</p>
+            <div style='
+                height: 2px;
+                background: linear-gradient(90deg, #00D4AA, transparent);
+                border-radius: 1px;
+                margin-top: 0.5rem;
+            '></div>
         </div>
         """,
         unsafe_allow_html=True,

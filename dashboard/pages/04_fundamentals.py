@@ -9,7 +9,7 @@ from dashboard.components.filters import render_header, sector_filter
 from dashboard.components.charts  import scatter_chart, bar_chart
 from dashboard.components.kpi_cards import render_kpi_row, signal_badge
 
-st.set_page_config(page_title="Fundamentals", page_icon="🔬", layout="wide")
+
 
 render_header(
     "🔬 Fundamental Scorecard",
@@ -118,7 +118,7 @@ st.dataframe(
     ).background_gradient(
         subset=["pe_ratio"], cmap="RdYlGn_r", vmin=0, vmax=60
     ),
-    use_container_width=True,
+    width='stretch',
     hide_index=True,
     height=420,
 )
@@ -155,7 +155,7 @@ if not scatter_df.empty:
                   annotation_text="P/E = 30")
     fig.add_vline(x=5,  line_dash="dash", line_color="#FFD700",
                   annotation_text="5% Revenue Growth")
-    st.plotly_chart(fig, use_container_width=True)
+    st.plotly_chart(fig, width='stretch')
 
 # ── Quality Score ranking ─────────────────────────────────────────────────────
 st.subheader("🏆 Quality Score Ranking by Company")
@@ -175,7 +175,7 @@ with col1:
     )
     fig.update_traces(marker_color="#00D4AA")
     fig.update_xaxes(range=[0, 100])
-    st.plotly_chart(fig, use_container_width=True)
+    st.plotly_chart(fig, width='stretch')
 
 with col2:
     # ROE vs Debt-to-Equity scatter
@@ -192,7 +192,7 @@ with col2:
         fig.add_vline(x=200, line_dash="dash", line_color="#FF6B6B",
                       annotation_text="High Debt")
         fig.add_hline(y=0, line_dash="dash", line_color="#555")
-        st.plotly_chart(fig, use_container_width=True)
+        st.plotly_chart(fig, width='stretch')
 
 # ── Sector fundamental comparison ────────────────────────────────────────────
 st.subheader("📊 Sector Fundamental Comparison")
@@ -215,7 +215,7 @@ with col1:
         height=340,
     )
     fig.update_traces(marker_color="#00D4AA")
-    st.plotly_chart(fig, use_container_width=True)
+    st.plotly_chart(fig, width='stretch')
 
 with col2:
     fig = bar_chart(
@@ -225,7 +225,7 @@ with col2:
         height=340,
     )
     fig.update_traces(marker_color="#FFD700")
-    st.plotly_chart(fig, use_container_width=True)
+    st.plotly_chart(fig, width='stretch')
 
 with col3:
     fig = bar_chart(
@@ -235,7 +235,7 @@ with col3:
         height=340,
     )
     fig.update_traces(marker_color="#FF6B6B")
-    st.plotly_chart(fig, use_container_width=True)
+    st.plotly_chart(fig, width='stretch')
 
 # ── 52-Week position table ────────────────────────────────────────────────────
 st.subheader("📍 52-Week Price Position")
@@ -254,7 +254,7 @@ st.dataframe(
     }, na_rep="N/A").background_gradient(
         subset=["price_52w_position_pct"], cmap="RdYlGn", vmin=0, vmax=100
     ),
-    use_container_width=True,
+    width='stretch',
     hide_index=True,
 )
 

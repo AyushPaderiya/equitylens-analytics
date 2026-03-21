@@ -129,29 +129,29 @@ class PriceTransformer:
                 )
         return df
 
-        def _add_relative_return(self, df: pd.DataFrame, ticker: str) -> pd.DataFrame:
-            """
-            Compute daily return relative to S&P 500 benchmark.
-            Alpha = stock daily return - benchmark daily return.
-            Null-safe: if benchmark unavailable, column is simply omitted.
-            """
-            benchmark = self._load_benchmark()
-            if benchmark is None:
-                return df
-
-            df = df.copy()
-            df["date_dt"] = pd.to_datetime(df["date"])
-            df = df.set_index("date_dt")
-
-            benchmark.index = pd.to_datetime(benchmark.index)
-            bench_return = benchmark.pct_change().rename("benchmark_return")
-
-            df = df.join(bench_return, how="left")
-            if "daily_return" in df.columns and "benchmark_return" in df.columns:
-                df["relative_return"] = df["daily_return"] - df["benchmark_return"]
-
-            df = df.reset_index(drop=True)
+    def _add_relative_return(self, df: pd.DataFrame, ticker: str) -> pd.DataFrame:
+        """
+        Compute daily return relative to S&P 500 benchmark.
+        Alpha = stock daily return - benchmark daily return.
+        Null-safe: if benchmark unavailable, column is simply omitted.
+        """
+        benchmark = self._load_benchmark()
+        if benchmark is None:
             return df
+
+        df = df.copy()
+        df["date_dt"] = pd.to_datetime(df["date"])
+        df = df.set_index("date_dt")
+
+        benchmark.index = pd.to_datetime(benchmark.index)
+        bench_return = benchmark.pct_change().rename("benchmark_return")
+
+        df = df.join(bench_return, how="left")
+        if "daily_return" in df.columns and "benchmark_return" in df.columns:
+            df["relative_return"] = df["daily_return"] - df["benchmark_return"]
+
+        df = df.reset_index(drop=True)
+        return df
 
     def _select_final_columns(self, df: pd.DataFrame) -> pd.DataFrame:
         """
