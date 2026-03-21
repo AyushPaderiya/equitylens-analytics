@@ -1,5 +1,11 @@
 import streamlit as st
 import sys
+
+import time
+from streamlit_autorefresh import st_autorefresh
+
+st_autorefresh(interval=24 * 60 * 60 * 1000, key="daily_refresh")
+
 from pathlib import Path
 
 st.set_page_config(
